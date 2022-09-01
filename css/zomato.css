@@ -1,0 +1,127 @@
+*{
+    margin: 2px;
+    padding: 2px;
+
+}
+.middle{
+    box-sizing: border-box;
+    padding: 12px 121px;
+    margin: 28px 10px;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+}
+.col{
+border: 2px solid black;
+box-sizing: border-box;
+border-radius: 20px;
+height: 339px;
+width: 312px;
+}
+.col img{
+box-sizing: border-box;
+ position: relative;
+ top: -7px;
+ left: -7px;
+ height: 341px;
+ width: 314px;
+ border-radius: 20px;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+}
+.sum{
+    position: relative;
+    top: -37px;
+    left: -14px;
+}
+.card{
+    padding: 20px;
+    margin: 20px;
+    border: 0.5px solid rgb(239, 181, 181);
+    box-sizing: border-box;
+    height: 260px;
+    width: 341px;
+    border-radius: 20px;
+}
+.card img{
+    box-sizing: border-box;
+    position: relative;
+    top: -24px;
+    left: -25px;
+    height: 187px;
+    width: 345px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.tag{
+    font-family: serif;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 650px;
+    font-size: 80px;
+}
+.data{
+    color: white;
+    position: absolute;
+    top: 322px;
+    left: 535px;
+    font-size: 30px;
+}
+.input{
+    padding: 14px;
+    margin: 18px;
+    width: 366px;
+    padding-left: 30px;
+    border-radius: 30px;
+}
+.searchbar{
+    display: flex;
+    color: white;
+    position: absolute;
+    top: 374px;
+    left: 397px;
+}
+.container{
+    display: flex;
+    padding: 20em;
+    outline: 2px solid rgb(225, 31, 31);
+    background-image: url(../images/ivan-torres-MQUqbmszGGM-unsplash.jpg);
+    background-size: 100% 106%;
+    background-repeat: no-repeat;
+     
+}
+#navabar{
+    display: flex;
+}
+ #navbar ul{
+    padding-left: 500px;
+    font-size: 20px;
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left:50px;
+    list-style: none;
+}
+#navbar li a{
+    color:white;
+    padding-left: 50px;
+    display: flex;
+    text-decoration: none;
+
+}
+#logo{
+    color:white;
+    display: flex;
+    font-size: 20px;
+    position: absolute;
+    top: 35px;
+    left:50px;
+    padding-left: 150px;
+}
+
